@@ -6,9 +6,9 @@ CodeKit is a simple and powerful repository that helps you organize and streamli
 
 To install CodeKit, simply run the following command in your terminal:
 
-````bash
-curl -fsSL https://raw.githubusercontent.com/pmartinsdev/code-kit/main/install.sh | sh```
-````
+```bash
+curl -fsSL https://raw.githubusercontent.com/pmartinsdev/code-kit/main/install.sh | sh
+```
 
 The installation script will download and install the necessary dependencies from the internet. Make sure to have internet access during the installation process.
 
