@@ -4,12 +4,11 @@ CodeKit is a simple and powerful repository that helps you organize and streamli
 
 ## Installation
 
-To install CodeKit, follow these steps:
+To install CodeKit, simply run the following command in your terminal:
 
-1. Clone this repository to your local machine by running the command: `git clone https://github.com/yourusername/codekit.git`
-2. Navigate to the root folder of the repository.
-3. Make all files in the repository executable with: `chmod +xw ./**/*`
-4. Run the installation script with: `./install.sh`
+````bash
+curl -fsSL https://raw.githubusercontent.com/pmartinsdev/code-kit/main/install.sh | sh```
+````
 
 The installation script will download and install the necessary dependencies from the internet. Make sure to have internet access during the installation process.
 
@@ -27,4 +26,6 @@ CodeKit installs the following dependencies:
 - [Lua language server](https://github.com/sumneko/lua-language-server)
 - [Ripgrep](https://github.com/BurntSushi/ripgrep)
 
-CodeKit is designed to make your coding environment setup process as easy and straightforward as possible, so you can focus on what really matters: writing code. Whether you are a beginner or an experienced coder, CodeKit can help you streamline your workflow, automate repetitive tasks, and increase your productivity.
+CodeKit is designed to make your coding environment setup process as easy and straightforward as possible. Whether you are a beginner or an experienced coder, CodeKit can help you streamline your workflow, automate repetitive tasks, and increase your productivity.
+
+In addition to its default configuration, CodeKit is highly customizable, allowing you to add or remove tools and languages as needed. Plus, it's open source, so you can contribute to its development and improve it for the entire community.
