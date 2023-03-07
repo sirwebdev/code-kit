@@ -1,5 +1,5 @@
 echo
-echo "Installing packer"
+echo "Installing packer ..."
 echo
 
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\

@@ -1,3 +1,4 @@
+./programs/aws.sh
 ./programs/docker.sh
 ./programs/git.sh
 ./programs/vim.sh
