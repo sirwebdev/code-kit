@@ -6,7 +6,7 @@ echo
 FILE=~/.zshrc
 
 
-if [  -e "$FILE" ]; then
+if [  ! -e "$FILE" ]; then
   if [[ $OSTYPE == 'darwin'* ]]; then
     brew update
     brew install zsh
