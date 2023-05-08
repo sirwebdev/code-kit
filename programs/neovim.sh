@@ -15,9 +15,9 @@ else
   sudo apt install neovim -y
 fi
 
-echo "Setting pmartinsdev config into your setup"
-echo
+# echo "Setting pmartinsdev config into your setup"
+# echo
 
-git clone https://github.com/pmartinsdev/.nvim.git ~/.config/nvim
-sudo chmod +x ~/.config/nvim/install.sh
-~/.config/nvim/install.sh
+# git clone https://github.com/pmartinsdev/.nvim.git ~/.config/nvim
+# sudo chmod +x ~/.config/nvim/install.sh
+# ~/.config/nvim/install.sh
